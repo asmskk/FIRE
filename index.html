@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRE</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://use.fontawesome.com/33bde565ef.js"></script>
+<body>
+    <header>
+        <a class="icon menu"><i class="fa fa-bars"></i></a>
+
+        <div class="logo"><a>FIRE</a></div>
+
+        <nav>
+            <a href=""></a>
+        </nav>
+
+        <a class="icon login"><i class="fa fa-user" ></i></a>
+
+    </header>
+
+    <main>
+        <div class="fire-explain">
+            <p><span class="fire">FIREとは . . .</span> <br>Financial Independence(経済的自立),Retire Early(早期退職)の頭文字。<br>倹約による多額の貯蓄と投資などで経済的自立を得て早期退職すること。</p>
+        </div>
+
+        <h1>あなたがFIREできるのはいつ？</h2>
+        <h4>下の<div class="box"></div>に数字を入力してください。</h4>
+
+        <div class="calculation">
+            
+            <div class="contents">
+            <label class="text"> 年齢(Age) </label> <input type="text" id="age">                
+            </div>
+            
+            
+            <div class="contents">
+            <label class="text"> 年収(Annual income) </label><input type="text" id="income">
+            </div>
+
+            <div class="contents">
+            <label class="text"> 年間支出(Annual expenses) </label><input type="text" id="expense">              
+            </div>
+
+            <div class="contents">
+            <label class="text"> 年間貯蓄(Annual savings) </label><input type="text" id="saving">
+            </div>
+            
+            <div class="contents">
+            <label class="text"> 現在の貯蓄(Current net worth) </label><input type="text" id="networth">
+            </div>
+            
+            <div class="contents">
+            <label class="text"> 投資合計額(Current portfolio value) </label><input type="text" id="portfolio">
+            </div>
+            
+
+            <p id="result"></p>
+            <p id="info"></p> 
+            <button id="btn" onclick="FIRE()">Calculate</button>
+            
+        </div>
+        
+        
+    </main>
+    
+    <footer>
+
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
