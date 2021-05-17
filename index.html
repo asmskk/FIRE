@@ -32,9 +32,8 @@
         <div class="calculation">
             
             <div class="contents">
-            <label class="text"> 年齢(Age) </label> <input type="text" id="age">                
+            <label class="text"> 年齢(Age) </label><input type="text" id="age">                
             </div>
-            
             
             <div class="contents">
             <label class="text"> 年収(Annual income) </label><input type="text" id="income">
@@ -52,14 +51,14 @@
             <label class="text"> 現在の貯蓄(Current net worth) </label><input type="text" id="networth">
             </div>
             
-            <div class="contents">
-            <label class="text"> 投資合計額(Current portfolio value) </label><input type="text" id="portfolio">
-            </div>
+            <!-- <div class="contents">
+            <label class="text"> 投資合計額(Portfolio value) </label><input type="text" id="portfolio">
+            </div> -->
             
 
             <p id="result"></p>
             <p id="info"></p> 
-            <button id="btn" onclick="FIRE()">Calculate</button>
+            <button id="btn" onClick="FIRE()">Calculate</button>
             
         </div>
         
@@ -67,7 +66,7 @@
     </main>
     
     <footer>
-
+        <div class="copyright"><small>@2021 FIRE</small></div>
     </footer>
 
     <script src="index.js"></script>
